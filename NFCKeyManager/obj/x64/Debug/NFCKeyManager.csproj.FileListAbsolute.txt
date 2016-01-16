@@ -1,0 +1,9 @@
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\bin\x64\Debug\NFCKeyManager.exe.config
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\bin\x64\Debug\NFCKeyManager.exe
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\bin\x64\Debug\NFCKeyManager.pdb
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\obj\x64\Debug\NFCKeyManager.csprojResolveAssemblyReference.cache
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\obj\x64\Debug\NFCKeyManager.Manager.resources
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\obj\x64\Debug\NFCKeyManager.Properties.Resources.resources
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\obj\x64\Debug\NFCKeyManager.csproj.GenerateResource.Cache
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\obj\x64\Debug\NFCKeyManager.exe
+d:\maz\documents\visual studio 2013\Projects\NFCRingCredentialProvider\NFCKeyManager\obj\x64\Debug\NFCKeyManager.pdb
