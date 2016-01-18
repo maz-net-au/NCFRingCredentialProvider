@@ -75,7 +75,7 @@ void Reader::CheckNFC()
 
 	while (_checkLoop)
 	{
-		std::this_thread::sleep_for(std::chrono::milliseconds(500));
+		std::this_thread::sleep_for(std::chrono::milliseconds(100));
 		rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 
 		if (rv != SCARD_S_SUCCESS)
@@ -137,7 +137,8 @@ void Reader::CheckNFC()
 		sprintf(&hex[2 * dwRecvLength], "%s", "02164873");
 		
 		std::string hashed = sha1(hex, (dwRecvLength * 2)+8);
-		_key = converter.from_bytes(sha1(hashed));
+		hashed = sha1(hashed);
+		_key = converter.from_bytes(hashed);
 
 		//for (int i = 0; i < dwRecvLength * 2; i++)
 		//{
@@ -191,7 +192,8 @@ HRESULT Reader::GetLogin(
 	if (res != ERROR_SUCCESS)
 		return E_FAIL;
 
-	
+	_kerbrosCredentialRetrieved = false;
+	_key = L"";
 
 	HRESULT hr = S_OK;
 	WCHAR wsz[MAX_COMPUTERNAME_LENGTH + 1];
